@@ -1,0 +1,79 @@
+<!-- ---- signup form ---- -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="/Form/form.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+     <div class="form-container">
+       <form action="action.php" method="post">
+        <div class="input-item">
+          <i class="fa-solid fa-user"></i>
+          <input type="text"  name="firstname" placeholder="Enter your first name" class="name">
+                     
+          <span>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="lastname" placeholder="Enter your last name" class="name"><br>
+          </span>
+        </div>
+       
+        <div class="input-item">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" name="email" placeholder="Enter your email id" class="text-item"><br>
+        </div>
+                 
+        <div class="input-item">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" name="password" placeholder="password" class="text-item" required>
+        </div>
+        <div class="input-item">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="confirm password" class="text-item" required>
+        </div>
+
+        <div  class="input-item">
+          <input type="radio" name="mygender" value="m" class="radio-button" > 
+          <label style="margin-right: 20px;">Male</label>
+          <input type="radio" name="mygender" value="f" class="radio-button" >
+          <label style="margin-right: 20px;">Female</label>
+          <input type="radio" name="mygender" value="o" class="radio-button" >
+          <label>Other</label>
+        </div>
+
+        <div class="input-item">
+          <select name="country" class="country">
+           <option>Select a country</option>
+           <option>India</option>
+           <option>America</option> 
+           <option>Italy</option>
+           <option>Japan</option>
+           <option>Canada</option>
+          </select>
+          <div class="arrow"></div>
+        </div>
+
+        <div class="input-item">
+            <input type="checkbox" name="checkbox">
+            <label>I accept the term and condition</label>
+        </div>
+       
+        <div class="input-item">
+          <input type="submit" value="Register" class="button">
+        </div>
+       </form>
+      </div>
+   </div>
+
+</body>
+</html>
