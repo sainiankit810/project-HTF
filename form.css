@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid green;
+    box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.5) ;
+}
+
+.container h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.input-item{
+    width: 90%;
+    position: relative;
+    margin: 20px auto ;
+}
+
+.fa-solid{
+    padding: 8px 11px;
+}
+
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-item span{
+    padding: 35px;
+}
+
+.text-item{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-item i{
+    font-size: 18px;
+    position: absolute;
+    color: blue;
+    border-right: 1px solid #cccccc ;
+}
+
+.text-item:focus, .name:focus{
+    border: 1px solid blue;
+}
+
+.radio-button{
+    margin-right: 3px;
+}
+
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    padding: 0 15px;
+    cursor: pointer;
+    appearance: none;
+    border-radius: none;
+}
+
+.country:hover, .country:focus{
+    color: blue;
+}
+
+.arrow{
+    position: absolute;
+    top: calc(50% - 4px);
+    right: 15px;
+    width: 0;
+    height: 0; 
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+
+.country:hover + .arrow, .country:focus + .arrow{
+    border-top-color : blue;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button:hover{
+    background-color: green;
+}
