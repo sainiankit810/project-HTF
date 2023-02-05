@@ -1,0 +1,30 @@
+
+.caption_med{
+    font-size: 20px;
+    line-height: 16px;
+    color: #8993A4;
+    text-align: left;
+}
+
+.caption_med1{
+    /* font-size: 18px; */
+    line-height: 40px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+}
+
+.caption_med2{
+    text-align: left;
+}
+
+.descriptionFooter{
+    font-size: 20px;
+  }
+
+  .ul_style li{
+    list-style-type: none;
+    line-height: 3rem;
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 14px;
+  }

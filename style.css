@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .header{
     height: 70vh;
     width: 100%;
@@ -40,6 +44,14 @@
   }
 
   .ul_style li{
+    list-style-type: none;
+    line-height: 3rem;
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 14px;
+  }
+
+  a{
     text-decoration: none;
+    color: black;
   }
 
